@@ -12,7 +12,7 @@
 
 <!-- Enhanced Stats Card with Custom Colors -->
 <div align="center">
-  <img src="https://github-stats-alpha.vercel.app/api?username=chathurahansaka1&cc=0D1117&tc=F0DB4F&ic=F75C7E&bc=0D1117" alt="Enhanced Stats Card">
+  <img src="https://github-readme-stats.vercel.app/api?username=chathurahansaka1&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=F0DB4F&icon_color=F75C7E&text_color=FFFFFF" alt="Enhanced Stats Card">
 </div>
 
 <!-- Profile Image with Improved Border Animation -->
@@ -74,7 +74,7 @@
 <div style="display: flex; align-items: center; gap: 20px;">
   <div style="flex: 1;">
     <ul style="list-style-type: none; padding-left: 0;">
-      <li>🔭 I'm currently working on <a href="https://github.com/cathurahansaka1/">team chathuwa</a> & <a href="https://github.com/Teamunic">Teamunic</a></li>
+      <li>🔭 I'm currently working on <a href="https://github.com/chathurahansaka1/">team chathuwa</a> & <a href="https://github.com/Teamunic">Teamunic</a></li>
       <li>🌱 I'm currently learning Python and Pyrogram (Telegram MTProto API Client Library)</li>
       <li>👯 I'm looking to collaborate on <a href="https://t.me/aboutchathura">Telegram</a> 🤝</li>
       <li>🤔 I'm looking for help with advanced bot development techniques</li>
@@ -174,69 +174,55 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=chathurahansaka1&theme=radical&hide_border=true&background=0D1117&stroke=F0DB4F&fire=F75C7E&currStreakNum=FFFFFF&sideNums=F0DB4F&currStreakLabel=F75C7E&sideLabels=F0DB4F&dates=FFFFFF" alt="GitHub Streak Stats" style="filter: drop-shadow(0 0 15px rgba(247, 92, 126, 0.7)); width: 98%;" />
 </p>
 
-<h2>Github Activity <img src="https://camo.githubusercontent.com/2c8b3670d933220ae3c023fa1d568682975cce3f10799d0d3ff5ecac394b4ee8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f31326f75664342304d795a31476f2f67697068792e676966" width="50px"></h2>
+<h2>Github Activity <img src="https://media.giphy.com/media/3o7aD2X9HxhzNlJXg4/giphy.gif" width="50"></h2>
 
-<!-- Enhanced Status Badges -->
-<p align="center">
-  <a href="https://github.com/chathurahansaka1?tab=followers">
-    <img src="https://img.shields.io/github/followers/chathurahansaka1?label=Followers&style=for-the-badge&color=F75C7E" alt="GitHub Followers" style="margin: 12px; filter: drop-shadow(0 0 8px rgba(247, 92, 126, 0.7)); transition: all 0.3s ease;" />
-  </a>
-  <a href="https://github.com/chathurahansaka1">
-    <img src="https://img.shields.io/github/stars/chathurahansaka1?label=Stars&style=for-the-badge&color=F0DB4F" alt="GitHub Stars" style="margin: 12px; filter: drop-shadow(0 0 8px rgba(240, 219, 79, 0.7)); transition: all 0.3s ease;" />
-  </a>
-</p>
-
-<!-- Enhanced Contribution Graph with Custom Colors -->
+<!-- Enhanced Activity Stats -->
 <div align="center">
   <a href="https://github.com/chathurahansaka1">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=chathurahansaka1&theme=tokyo-night&bg_color=0D1117&color=F0DB4F&line=F75C7E&point=FFFFFF&hide_border=true&custom_title=Contribution%20Graph" width="95%" alt="Contribution Graph" style="filter: drop-shadow(0 0 15px rgba(70, 130, 180, 0.5));" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=chathurahansaka1&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&color=F75C7E&line=F0DB4F&point=FFFFFF" width="95%" alt="Activity Graph">
   </a>
 </div>
 
-<!-- Enhanced Tools Section with Animation -->
-<h2>Tools & Technologies 🛠</h2> 
-<div align="center" style="margin: 25px 0;">
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" style="filter: drop-shadow(0 0 6px rgba(236, 69, 57, 0.5)); margin: 10px; transition: transform 0.3s ease;"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-ar21.svg" style="filter: drop-shadow(0 0 6px rgba(143, 82, 255, 0.5)); margin: 10px; transition: transform 0.3s ease;"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/android/android-ar21.svg" style="filter: drop-shadow(0 0 6px rgba(163, 198, 68, 0.5)); margin: 10px; transition: transform 0.3s ease;"></code>
+<!-- Enhanced Contribution Calendar -->
+<h2>Contribution Heatmap 🔥</h2>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chathurahansaka1&theme=dark&hide_border=true&background=0D1117&stroke=2C2C2C&ring=F75C7E&fire=F75C7E&currStreakLabel=F75C7E" alt="Contribution Streak" width="80%">
+</div>
+
+<!-- Enhanced Tools Section -->
+<h2>Development Tools 🛠️</h2>
+<div align="center" style="margin: 20px 0;">
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode">
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku">
   <br>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" style="filter: drop-shadow(0 0 6px rgba(55, 115, 171, 0.5)); margin: 10px; transition: transform 0.3s ease;"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" style="filter: drop-shadow(0 0 6px rgba(240, 81, 51, 0.5)); margin: 10px; transition: transform 0.3s ease;"></code>
-  <code><img width="10%" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" style="filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5)); margin: 10px; transition: transform 0.3s ease;"></code>
+  <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" alt="PyCharm">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman">
 </div>
 
-<!-- Enhanced Connection Message with Animation -->
-<div align="center" style="margin: 35px 0;">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="80"> 
-  <p style="font-size: 1.3em; font-weight: bold;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=I+love+connecting+with+different+people;Say+hi%2C+I'll+be+happy+to+meet+you!" alt="Typing SVG" />
-  </p>
-</div>
-
-<!-- Enhanced Coder GIF -->
+<!-- Enhanced Support Section -->
+<h2>Support & Community 🤝</h2>
 <div align="center">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="70%">
+  <a href="https://www.buymeacoffee.com/chathurahansaka" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="210">
+  </a>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=chathurahansaka1&label=Profile+Views&color=F75C7E&style=flat" alt="Profile Views">
 </div>
 
-<!-- Enhanced Code Matrix Animation -->
-<div align="center">
+<!-- Enhanced Footer -->
+<div align="center" style="margin-top: 30px;">
   <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%">
+  <br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,9,12,16,20&height=180&section=footer&animation=twinkling">
 </div>
 
-<!-- Enhanced Footer Wave Animation with Better Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,9,12,16,20&height=180&section=footer&animation=twinkling"/>
-
-<!-- Enhanced Visitor Counter with Animation -->
+<!-- Final Visitor Counter -->
 <div align="center">
-  <img src="https://profile-counter.glitch.me/chathurahansaka1/count.svg" alt="Visitor Count" style="filter: drop-shadow(0 0 12px rgba(247, 215, 71, 0.7)); margin-top: -50px;" />
+  <img src="https://profile-counter.glitch.me/chathurahansaka1/count.svg" alt="Visitor Counter" style="margin-top: -50px;">
 </div>
 
-<!-- Custom CSS for hover effects - GitHub doesn't support this but it shows your intent -->
-<style>
-  a img:hover {
-    transform: scale(1.1);
-  }
-  .skill-bar:hover {
-    filter: brightness(1.2);
-  }
-</style>
+<!-- Animated Goodbye Message -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=20&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!;Keep+coding+%F0%9F%92%BB;Stay+awesome+%E2%98%BA%EF%B8%8F" alt="Goodbye Message">
+</div>
