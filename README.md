@@ -1,93 +1,117 @@
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm Chathura Hansaka
-</h1>
+import React, { useState, useEffect } from 'react';
 
-<h3 align="center">
-  A Passionate Python Developer & Bot Creator from Sri Lanka 🇱🇰
-</h3>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F72E&center=true&vCenter=true&width=435&lines=Python+Developer;Telegram+Bot+Creator;Open-Source+Enthusiast;Always+Learning+New+Things" alt="Typing Animation" />
-</div>
-
----
-
-### 🚀 **About Me**
-I'm a self-taught developer with a passion for building **Telegram Bots**, **Automation Tools**, and **Python Scripts**. I love exploring new technologies and contributing to open-source projects. When I'm not coding, I enjoy learning new things and collaborating with like-minded developers.
-
----
-
-### 🛠️ **Tech Stack**
-Here are the tools and technologies I work with:
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,heroku,linux,vscode&theme=dark&perline=5" alt="Tech Stack"/>
-</p>
-
----
-
-### 📊 **GitHub Stats**
-Here’s a snapshot of my GitHub activity:
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chathurahansaka1&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true&border_color=00FFEE&ring_color=00FFEE&animations=true" alt="Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chathurahansaka1&layout=compact&theme=vision-friendly-dark&border_color=00FFEE&animations=true" alt="Top Languages"/>
-</div>
-
----
-
-### 🔥 **Streak Stats**
-Check out my contribution streak:
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=chathurahansaka1&theme=neon-dark&background=1A1B27&border=00FFEE&stroke=00FFEE&ring=00FFEE&fire=FF0000&currStreakLabel=00FFEE" alt="Streak"/>
-</div>
-
----
-
-### 🏆 **Achievements**
-Here are some of my GitHub achievements:
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chathurahansaka1&theme=onestar&no-frame=true&margin-w=15&margin-h=15&column=7&rank=SSS,SS,S,AAA,AA,A,B,C" alt="Trophies" />
-</div>
-
----
-
-### 🐍 **Contribution Snake**
-Here’s a fun animation of my contributions:
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
-</div>
-
----
-
-### 📫 **Connect With Me**
-Let’s collaborate and build something amazing together!
-
-<p align="center">
-  <a href="https://t.me/aboutchathura">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/aboutchathura" alt="Telegram"/>
-  </a>
-  <a href="mailto:chathurahansaka4@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:chathurahansaka4@gmail.com" alt="Gmail"/>
-  </a>
-  <a href="https://github.com/chathurahansaka1">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/chathurahansaka1" alt="GitHub"/>
-  </a>
-</p>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
-  <em><b>Let's code something awesome together!</b> 😄</em>
-</div>
-
----
-
-### 🎮 **Terminal Animation**
-Here’s a cool terminal-style animation:
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/MatrixDeveloper/MatrixDeveloper/main/matrix.gif" alt="Matrix Animation" width="600"/>
-</div>
+const DeveloperAnimationWithStats = () => {
+  const [showAnimation, setShowAnimation] = useState(true);
+  const [animationFrame, setAnimationFrame] = useState(0);
+  
+  // Developer animation frames (simplified for demonstration)
+  const developerFrames = [
+    { transform: 'translateY(0px)' },
+    { transform: 'translateY(-5px)' },
+    { transform: 'translateY(-10px)' },
+    { transform: 'translateY(-5px)' },
+  ];
+  
+  // GitHub streak data (sample data)
+  const streakData = {
+    currentStreak: 42,
+    longestStreak: 67,
+    totalContributions: 852,
+    lastYear: 512,
+    averagePerWeek: 16.4
+  };
+  
+  // Animation effect
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setAnimationFrame((prev) => (prev + 1) % developerFrames.length);
+    }, 500);
+    
+    return () => clearInterval(timer);
+  }, []);
+  
+  // Toggle between animation and stats
+  const toggleView = () => {
+    setShowAnimation(!showAnimation);
+  };
+  
+  return (
+    <div className="w-full p-6 bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+      <div className="flex flex-col items-center">
+        <h2 className="text-2xl font-bold text-yellow-400 mb-6 text-center">
+          {showAnimation ? "Developer Animation" : "GitHub Streak Stats"}
+        </h2>
+        
+        <div className="w-full mb-6">
+          <button 
+            onClick={toggleView}
+            className="px-4 py-2 bg-pink-600 text-white rounded-md hover:bg-pink-700 transition-all duration-300 mx-auto block"
+          >
+            {showAnimation ? "Show Stats" : "Show Animation"}
+          </button>
+        </div>
+        
+        {showAnimation ? (
+          <div className="relative w-full h-64 flex justify-center items-center">
+            <div 
+              className="w-48 h-48 bg-gray-800 rounded-full flex items-center justify-center shadow-lg transition-all duration-500"
+              style={developerFrames[animationFrame]}
+            >
+              <div className="relative">
+                <div className="absolute -top-16 -left-16 w-80 h-80 opacity-20 rounded-full bg-gradient-to-r from-pink-500 to-yellow-500 animate-pulse"></div>
+                <div className="relative z-10">
+                  <svg className="w-32 h-32" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#F7D747" />
+                    <path d="M18.5 5C17.12 5 16 6.12 16 7.5C16 8.88 17.12 10 18.5 10C19.88 10 21 8.88 21 7.5C21 6.12 19.88 5 18.5 5Z" fill="#F75C7E" />
+                    <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM15 17L12 15L9 17L10 13.5L7 11H10.5L12 7.5L13.5 11H17L14 13.5L15 17Z" fill="#F0DB4F" />
+                  </svg>
+                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                    <div className="w-5 h-5 bg-pink-500 rounded-full animate-ping"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Code particles */}
+            {[...Array(12)].map((_, i) => (
+              <div 
+                key={i}
+                className="absolute w-2 h-2 bg-yellow-400 rounded-full opacity-60 animate-float"
+                style={{
+                  top: `${Math.random() * 100}%`,
+                  left: `${Math.random() * 100}%`,
+                  animationDelay: `${Math.random() * 5}s`,
+                  animationDuration: `${3 + Math.random() * 7}s`
+                }}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="w-full bg-gray-800 rounded-lg p-6 shadow-xl border border-pink-500">
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-gray-900 rounded-lg p-4 transform hover:scale-105 transition-all duration-300">
+                <div className="text-pink-500 text-xl font-bold mb-2">Current Streak</div>
+                <div className="text-yellow-400 text-3xl font-bold flex items-center">
+                  {streakData.currentStreak} days
+                  <span className="ml-2 text-pink-500">🔥</span>
+                </div>
+              </div>
+              
+              <div className="bg-gray-900 rounded-lg p-4 transform hover:scale-105 transition-all duration-300">
+                <div className="text-pink-500 text-xl font-bold mb-2">Longest Streak</div>
+                <div className="text-yellow-400 text-3xl font-bold flex items-center">
+                  {streakData.longestStreak} days
+                  <span className="ml-2 text-pink-500">⚡</span>
+                </div>
+              </div>
+              
+              <div className="bg-gray-900 rounded-lg p-4 transform hover:scale-105 transition-all duration-300">
+                <div className="text-pink-500 text-xl font-bold mb-2">Total Contributions</div>
+                <div className="text-yellow-400 text-3xl font-bold flex items-center">
+                  {streakData.totalContributions}
+                  <span className="ml-2 text-pink-500">📊</span>
+                </div>
+              </div>
+              
+              <div className="bg-gray-900 rounded-lg p-4 transform hover:scale-105 transition-all duration-300">
+                <div className="text-pink-500 text-xl font-bold mb-2">Average Per
