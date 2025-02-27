@@ -1,50 +1,93 @@
-<!-- Dynamic Header with Enhanced Typography -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=40&pause=1000&color=F7D747&center=true&vCenter=true&random=false&width=500&height=70&lines=Hi+there+%F0%9F%91%8B;I'm+Chathura+Hansaka;Welcome+to+My+Profile" alt="Typing SVG" />
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm Chathura Hansaka
 </h1>
 
-<!-- Animated Wave Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header"/>
+<h3 align="center">
+  A Passionate Python Developer & Bot Creator from Sri Lanka 🇱🇰
+</h3>
 
-<!-- GitHub Stats -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chathurahansaka1&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F0DB4F&icon_color=F75C7E&text_color=FFFFFF" height="185em"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chathurahansaka1&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F0DB4F&text_color=FFFFFF" height="185em"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F72E&center=true&vCenter=true&width=435&lines=Python+Developer;Telegram+Bot+Creator;Open-Source+Enthusiast;Always+Learning+New+Things" alt="Typing Animation" />
 </div>
 
-<!-- GitHub Streak -->
+---
+
+### 🚀 **About Me**
+I'm a self-taught developer with a passion for building **Telegram Bots**, **Automation Tools**, and **Python Scripts**. I love exploring new technologies and contributing to open-source projects. When I'm not coding, I enjoy learning new things and collaborating with like-minded developers.
+
+---
+
+### 🛠️ **Tech Stack**
+Here are the tools and technologies I work with:
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=chathurahansaka1&theme=radical&hide_border=true&background=0D1117&stroke=F0DB4F&fire=F75C7E&currStreakNum=FFFFFF&sideNums=F0DB4F&currStreakLabel=F75C7E&sideLabels=F0DB4F&dates=FFFFFF" width="98%" />
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,heroku,linux,vscode&theme=dark&perline=5" alt="Tech Stack"/>
 </p>
 
-<!-- Contribution Snake -->
+---
+
+### 📊 **GitHub Stats**
+Here’s a snapshot of my GitHub activity:
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" width="95%" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chathurahansaka1&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true&border_color=00FFEE&ring_color=00FFEE&animations=true" alt="Stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chathurahansaka1&layout=compact&theme=vision-friendly-dark&border_color=00FFEE&animations=true" alt="Top Languages"/>
 </div>
 
-<!-- GitHub Trophies -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chathurahansaka1&theme=radical&no-frame=true&column=7&margin-w=15&margin-h=15" width="98%" />
-</p>
+---
 
-<!-- About Me -->
-<h2>About Me <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"></h2>
-<ul>
-  <li>🔭 Currently working on <a href="https://github.com/chathurahansaka1/">team chathuwa</a> & <a href="https://github.com/Teamunic">Teamunic</a></li>
-  <li>🌱 Learning Python, Pyrogram, and bot development</li>
-  <li>🤔 Seeking help with advanced bot techniques</li>
-  <li>💬 Ask me anything about Python or Telegram bots!</li>
-  <li>📫 Reach me at <a href="mailto:chathurahansaka4@gmail.com">chathurahansaka4@gmail.com</a></li>
-</ul>
+### 🔥 **Streak Stats**
+Check out my contribution streak:
 
-<!-- Social Media -->
-<h2>Connect with Me 🌍</h2>
-<p align="center">
-  <a href="https://t.me/aboutchathura"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/335_Telegram_logo-256.png" width="50px"></a>
-  <a href="https://github.com/chathurahansaka1"><img src="https://telegra.ph/file/986aa4de44af2256205e5.png" width="50px"></a>
-</p>
-
-<!-- Divider -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="https://streak-stats.demolab.com?user=chathurahansaka1&theme=neon-dark&background=1A1B27&border=00FFEE&stroke=00FFEE&ring=00FFEE&fire=FF0000&currStreakLabel=00FFEE" alt="Streak"/>
+</div>
+
+---
+
+### 🏆 **Achievements**
+Here are some of my GitHub achievements:
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=chathurahansaka1&theme=onestar&no-frame=true&margin-w=15&margin-h=15&column=7&rank=SSS,SS,S,AAA,AA,A,B,C" alt="Trophies" />
+</div>
+
+---
+
+### 🐍 **Contribution Snake**
+Here’s a fun animation of my contributions:
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+</div>
+
+---
+
+### 📫 **Connect With Me**
+Let’s collaborate and build something amazing together!
+
+<p align="center">
+  <a href="https://t.me/aboutchathura">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/aboutchathura" alt="Telegram"/>
+  </a>
+  <a href="mailto:chathurahansaka4@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:chathurahansaka4@gmail.com" alt="Gmail"/>
+  </a>
+  <a href="https://github.com/chathurahansaka1">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/chathurahansaka1" alt="GitHub"/>
+  </a>
+</p>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
+  <em><b>Let's code something awesome together!</b> 😄</em>
+</div>
+
+---
+
+### 🎮 **Terminal Animation**
+Here’s a cool terminal-style animation:
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MatrixDeveloper/MatrixDeveloper/main/matrix.gif" alt="Matrix Animation" width="600"/>
 </div>
