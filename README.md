@@ -12,9 +12,8 @@
 
 <!-- Enhanced Stats Card with Custom Colors -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chathurahansaka1&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=F0DB4F&icon_color=F75C7E&text_color=FFFFFF" alt="Enhanced Stats Card">
+  <img src="https://github-stats-alpha.vercel.app/api?username=chathurahansaka1&cc=0D1117&tc=F0DB4F&ic=F75C7E&bc=0D1117" alt="Enhanced Stats Card">
 </div>
-
 <!-- Profile Image with Improved Border Animation -->
 <div align="center">
   <a href="https://t.me/aboutchathura">
